@@ -2,11 +2,14 @@ import os
 import pathlib
 from datetime import datetime
 
-directory_path = ""  # Enter directory path from where the files/folders should to be deleted
+# Enter directory path from where the files/folders should to be deleted
+directory_path = "PATH"  
+# Enter the number of days beyond which the files/folders should to be deleted
+threshold_days = 30  
 
 all_file = []
 all_folder = []
-threshold_days = 30  # Enter the number of days beyond which the files/folders should to be deleted
+
 
 # We are using pathlib.Path().rglob('*') to recursively fetch the files/folders
 # We can also use glob.iglob() but it doesn't detect hidden files/folders and also files/folders starting with .
