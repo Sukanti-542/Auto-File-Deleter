@@ -1,6 +1,6 @@
 # Automatic File Deleter
 
-## Delete un-needed files automatically
+## Deletes un-needed files automatically
 
 <br/><br/>
 Below are the configurations you need to update for the script to work
